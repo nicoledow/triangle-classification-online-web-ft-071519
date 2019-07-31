@@ -9,7 +9,7 @@ class Triangle
   
   #valid types are equilateral, isosceles, scalene
   def kind
-    if side1 == side2 == side3
+    if side1 == side2 && side2 == side3
       :equilateral
     end
   end
