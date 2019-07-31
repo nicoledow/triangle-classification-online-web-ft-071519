@@ -7,6 +7,7 @@ class Triangle
     @side3 = side3
   end
   
+  #valid types are equilateral, isosceles, scalene
   def kind
     
   end
