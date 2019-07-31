@@ -8,12 +8,12 @@ class Triangle
   end
   
   #valid types are equilateral, isosceles, scalene
-  # def kind
-  #   if side1 == side2 == side3
-  #     self.type = :equilateral
-  #     self.type
-  #   end
-  # end
+  def kind
+    if side1 == side2 == side3
+      self.type = :equilateral
+      self.type
+    end
+  end
   
   
   class TriangleError < StandardError
